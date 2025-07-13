@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import io from "socket.io-client";
 import Editor from "@monaco-editor/react";
-const socket = io("https://coderelay-server.onrender.com", {
+const socket = io("https://coderelay-server-production.up.railway.app/", {
   transports: ["websocket"],
 });
 
